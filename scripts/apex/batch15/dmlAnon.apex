@@ -1,0 +1,11 @@
+DmlDemo.dmlInsertDemo1();
+DmlDemo.dmlInsertDemoCo1();
+DmlDemo.dmlInsertDemo4();
+DmlDemo.dmlUpdateDemo1();
+DmlDemo.dmlInsertDemo3();
+DmlDemo.insertRelatedRec();
+DmlDemo.bulkInsert();
+DmlDemo.bulkUpdate();
+DmlDemo.updateDescription();
+delete[select id from account where createddate=today limit 50];
+undelete [SELECT Id FROM Account WHERE isDeleted = true ALL ROWS];

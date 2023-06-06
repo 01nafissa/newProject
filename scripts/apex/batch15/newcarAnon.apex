@@ -1,0 +1,11 @@
+NewCar car1 = new NewCar();
+car1.startCar('Model 3', 'Tesla' );
+car1.accelerate(80);
+car1.checkSpeed();
+car1.Brake(55);
+car1.checkSpeed();
+car1.accelerate(10);
+car1.checkSpeed();
+car1.Brake(40);
+car1.checkSpeed();
+car1.stopCar();
